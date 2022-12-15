@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sydorova-nataliya/sydorova-nataliya.github.io/movies-react/static/css/main.c60fe14d.css",
-    "main.js": "/sydorova-nataliya/sydorova-nataliya.github.io/movies-react/static/js/main.262682b2.js",
-    "static/js/787.28cb0dcd.chunk.js": "/sydorova-nataliya/sydorova-nataliya.github.io/movies-react/static/js/787.28cb0dcd.chunk.js",
-    "static/media/header-back.jpg": "/sydorova-nataliya/sydorova-nataliya.github.io/movies-react/static/media/header-back.bb5912b2ccd7c2c7bbe5.jpg",
-    "index.html": "/sydorova-nataliya/sydorova-nataliya.github.io/movies-react/index.html",
-    "main.c60fe14d.css.map": "/sydorova-nataliya/sydorova-nataliya.github.io/movies-react/static/css/main.c60fe14d.css.map",
-    "main.262682b2.js.map": "/sydorova-nataliya/sydorova-nataliya.github.io/movies-react/static/js/main.262682b2.js.map",
-    "787.28cb0dcd.chunk.js.map": "/sydorova-nataliya/sydorova-nataliya.github.io/movies-react/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/movies-react/static/css/main.157754e1.css",
+    "main.js": "/movies-react/static/js/main.cd1c935c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/movies-react/static/js/787.28cb0dcd.chunk.js",
+    "static/media/header-back.jpg": "/movies-react/static/media/header-back.bb5912b2ccd7c2c7bbe5.jpg",
+    "index.html": "/movies-react/index.html",
+    "main.157754e1.css.map": "/movies-react/static/css/main.157754e1.css.map",
+    "main.cd1c935c.js.map": "/movies-react/static/js/main.cd1c935c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/movies-react/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c60fe14d.css",
-    "static/js/main.262682b2.js"
+    "static/css/main.157754e1.css",
+    "static/js/main.cd1c935c.js"
   ]
 }
