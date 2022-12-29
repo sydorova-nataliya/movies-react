@@ -1,0 +1,51 @@
+.footer{
+    width: 100%;
+    padding-bottom: 20px;
+    background-color:rgb(102, 18, 102);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0 7px rgb(118, 46, 177),
+    0 0 0 14px rgba(118, 46, 177, 0.6),
+    0 0 0 21px rgba(118, 46, 177, 0.4);
+    margin-top: 40px;
+    &__section{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__title{
+        text-transform: uppercase;
+        font-size: 1.2vw;
+        @media screen and (max-width:1439px){
+            font-size:  1.7vw;
+        }
+        @media screen and (max-width:767px){
+            font-size:  2.2vw;
+        }
+    }
+    .list{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 1vw;
+        &__contact-links{
+            margin: 5px 0;
+        }
+        &__contact-links a{
+            color: white;
+            text-decoration: none;
+            
+        }
+        &__contact-links a:hover{
+            text-decoration: underline;
+        }
+        @media screen and (max-width:1439px){
+            font-size:  1.5vw;
+        }
+        @media screen and (max-width:767px){
+            font-size:  2vw;
+        }
+    }
+}

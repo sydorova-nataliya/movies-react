@@ -1,0 +1,3 @@
+export const SET_MOVIES = "SET_MOVIES";
+export const SET_SEARCH_MOVIES = "SET_SEARCH_MOVIES";
+export const SET_DETAILS_MOVIE = "SET_DETAILS_MOVIE";

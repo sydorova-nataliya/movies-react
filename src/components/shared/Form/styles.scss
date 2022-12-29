@@ -1,0 +1,49 @@
+.form{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__required{
+         font-size:  1vw;
+        margin: 10px;
+        display: block;
+        @media screen and (max-width:1439px){
+            font-size:  2vw;
+        }
+
+    }
+    &__input{
+        width: 40vw;
+        border: 2px solid #7922CC;
+        border-radius: 25px;
+        padding: 1%;
+
+        @media screen and (max-width:1439px){
+            // font-size:  5vw;
+            padding:1.5%;
+        }
+    }
+    &__submit{
+        border: #4b167d;
+        background-color: #9d6dc9;
+        color: white;
+        min-width: 100px;
+        border-radius: 25px;
+        padding:18px 30px;
+        font-size:  1vw;
+        margin-left: 1%;
+        font-weight: bold;
+        &:hover{
+            cursor: pointer;
+            background-color: #7738b6;
+            text-decoration: underline;
+        }
+        @media screen and (max-width:1439px){
+            font-size:  2vw;
+            padding:15px 30px;
+        }
+        @media screen and (max-width:767px){
+            padding: 12px 30px;
+        }
+    }
+}

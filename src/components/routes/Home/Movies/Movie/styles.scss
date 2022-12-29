@@ -1,0 +1,71 @@
+.movie{
+    position: relative;
+    &__photo{
+        border-radius: 10%;
+        box-shadow: inset 4px 4px 5px rgba(164, 14, 174, 0.5), 4px 4px 5px rgb(199, 120, 191);
+        width: 100%;
+        height: 100%;
+        z-index: -3;
+   
+        @media screen and (max-width:1439px){
+            
+        }
+        @media screen and (max-width:767px){
+            
+        }
+    }
+    &__title{
+        display: inline-block;
+        font-size: 1.2vw;
+        font-weight: bold;
+        margin:10px 0 0 0;
+        text-decoration: none;
+        
+        &:hover{
+            color:rgba(108, 34, 113, 0.7) ;
+        }
+        @media screen and (max-width:1439px){
+            font-size:  2.1vw;
+        }
+        @media screen and (max-width:767px){
+            font-size:  2.5vw;
+        }
+    }
+
+    &__date{
+        margin: 0;
+        font-size: 1vw;
+        @media screen and (max-width:1439px){
+            font-size:  2vw;
+        }
+        @media screen and (max-width:767px){
+            font-size:  2.5vw;
+        }
+    }
+    &__popularity{
+        z-index: 1;
+        position: absolute;
+        top: 0px;
+        left: 5px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border-style: dotted;
+        border: 1px dotted red;
+    }
+    &__popularity::before{
+      z-index: -2;
+      content: '';
+      position: absolute;
+      bottom: -14px;
+      left: -8px;
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background-color: black;
+      border: 6px double rgb(58, 34, 161);
+    }
+    
+}
+

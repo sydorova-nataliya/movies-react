@@ -1,0 +1,17 @@
+.error{
+    padding: 10% 0;
+    &__title{
+        font-size: 36px;
+    }
+    &__subtitle{
+        font-size: 26px;
+    }
+    &__btn{
+        font-size: 20px;
+        color: rgb(102, 18, 102);
+        text-decoration: none;
+        &:hover{
+            text-shadow:0 0 2px rgb(146, 51, 146);
+        }
+    }
+}

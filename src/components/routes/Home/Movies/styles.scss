@@ -1,0 +1,27 @@
+.movies__title{
+    font-size:  2vw;
+    @media screen and (max-width:1439px){
+        font-size:  3vw;
+    }
+    @media screen and (max-width:767px){
+        font-size:  3.5vw;
+    }
+}
+.movies__holder{
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap:20px;
+    align-items: flex-start;
+    justify-items: center;
+
+    @media screen and (max-width:1439px){
+        grid-template-columns: repeat(4, 1fr);
+    }
+    @media screen and (max-width:992px){
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @media screen and (max-width:767px){
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
